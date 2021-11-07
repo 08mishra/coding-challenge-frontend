@@ -1,0 +1,81 @@
+     .form-container {
+         width: 60%;
+         margin: 50px auto;
+         height: 450px;
+         background: rgb(160, 160, 248);
+         border: 0px solid rgb(160, 160, 248);
+         box-shadow: 1px 3px 5px 6px rgb(129, 129, 207);
+         border-style: outset;
+         border-radius: 5px;
+     }
+     
+     .form {
+         display: flex;
+         flex-direction: column;
+         width: 80%;
+         height: inherit;
+         margin: 20px auto;
+         justify-content: center;
+     }
+     
+     .form label {
+         text-align: left;
+         font-size: 25px;
+         font-weight: 400;
+         margin-bottom: 5px;
+         color: rgb(34, 0, 78);
+     }
+     
+     .form input {
+         width: 80%;
+         height: 38px;
+         border-radius: 7px;
+         border: 1px solid rgb(85, 85, 165);
+         text-align: center;
+         font-size: 15px;
+         letter-spacing: 1px;
+     }
+     
+     .form input:focus {
+         border: 2px solid rgb(85, 85, 165);
+         outline: none;
+     }
+     
+     .form input:active {
+         border: 2px solid rgb(85, 85, 165);
+     }
+     
+     .form button {
+         align-items: center;
+         width: 120px;
+         height: 45px;
+         border-radius: 7px;
+         font-size: 25px;
+         font-weight: 400;
+         color: white;
+         background: rgb(17, 17, 85);
+         box-shadow: 1px 3px 5px 6px rgba(127, 136, 189, 0.75);
+         border: none;
+         outline: none;
+         padding: 5px;
+         margin: 20px 0px 20px 0px;
+     }
+     
+     #span {
+         display: block;
+         text-align: left;
+     }
+     
+     .form button:hover {
+         background: rgb(72, 223, 223);
+         color: rgb(150, 8, 74);
+         box-shadow: none;
+         cursor: pointer;
+     }
+     
+     @media screen and (max-width: 650px) {
+         .form-container {
+             width: 90%;
+             margin: 70px auto;
+         }
+     }
